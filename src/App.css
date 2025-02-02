@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", serif;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  font-size: 1rem;
+  font-family: "Nunito Sans", serif;
+}
+
+.container,
+.home_container {
+  max-width: 1600px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+::selection {
+  background-color: #4d90ff;
+  color: #fff;
+}
+
+.home_container {
+  max-width: 1200px;
+}
+
+a:hover {
+  color: #4d90ff;
+}
+
+::-webkit-scrollbar {
+  height: 10px;
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #737373b3;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #737373ff;
+}
+
+.no_scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no_scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.no_arrows::-webkit-outer-spin-button,
+.no_arrows::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
+.no_arrows[type="number"] {
+  appearance: textfield;
+}

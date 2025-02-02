@@ -1,0 +1,22 @@
+.notFound {
+  position: relative;
+  h1 {
+    font-size: 14rem;
+    font-weight: 800;
+    color: #4d90ff;
+    text-transform: uppercase;
+    letter-spacing: -1.125rem;
+  }
+  h2 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    font-size: 42px;
+    font-weight: 900;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 0.8125rem;
+  }
+}
